@@ -36,7 +36,7 @@ run;
 -- data brasileira
 proc sql;
 select
-  dateformat(col1) formato ddmmyy10. as novadata
+  dateformat(col1) format ddmmyy10. as novadata
 quit;
 
 #tip 7
